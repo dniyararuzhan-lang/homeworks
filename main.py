@@ -19,3 +19,15 @@ def analyze_text(text):
                 result.append(w)
                 used.add(w)
         return len(unique_vowels)," ".join(result)
+
+#2
+task2=lambda s: "" .join(
+    filter(
+        lambda w:len(w)%2==0,
+        map(
+            lambda w: w[::-1],
+            filter(lambda w: not any(c.isdigit() for c in w),s.split())
+        )
+    )
+)
+print(task2("arulljdjnxh"))

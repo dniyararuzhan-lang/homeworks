@@ -20,7 +20,7 @@ def analyze_text(text):
                 used.add(w)
         return len(unique_vowels)," ".join(result)
 
-#2
+
 task2=lambda s: "" .join(
     filter(
         lambda w:len(w)%2==0,
@@ -31,3 +31,6 @@ task2=lambda s: "" .join(
     )
 )
 print(task2("arulljdjnxh"))
+
+
+

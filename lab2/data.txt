@@ -1,0 +1,5 @@
+1 user_1 BUY 500
+2 user_2 VIEW
+3 user_1 BUY 300
+4 user_3 BUY 200
+5 user_2 BUY 400

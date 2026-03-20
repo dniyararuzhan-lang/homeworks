@@ -1,0 +1,6 @@
+1 Ali BUY 500
+2 Dana VIEW
+3 Ali BUY 300
+4 Arman BUY 700
+5 Dana BUY 200
+6 Ali VIEW
